@@ -152,3 +152,4 @@ class AlfredRubric:
         
         breakdown = {**scores, "total": round(total, 4), "priority_violation": scores["priority_ordering"] == 0.0}
         return total, breakdown
+    
