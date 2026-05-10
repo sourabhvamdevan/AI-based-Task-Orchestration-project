@@ -3,9 +3,9 @@ version: 1.0.0
 description: >
   A multi-agent personal task orchestration RL environment based on the 
   Alfred Protocol. The agent learns to prioritize personal well-being 
-  (TIER 1) over professional obligations (TIER 2), routing tasks to 
+  (tier 1) over professional obligations (tier 2 to tier n), routing tasks to 
   specialized sub-agents and executing actions via Google Calendar 
-  and Gmail APIs. Developed for the OpenEnv Hackathon.
+  and Gmail APIs. Developed for the AI Hackathon Submission.
 env_type: mcp
 entry: app.py
 tools:
