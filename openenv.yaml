@@ -1,0 +1,28 @@
+name: ai-task-orchestrator-ai-hackathon
+version: 1.0.0
+description: >
+  A multi-agent personal task orchestration RL environment based on the 
+  Alfred Protocol. The agent learns to prioritize personal well-being 
+  (TIER 1) over professional obligations (TIER 2), routing tasks to 
+  specialized sub-agents and executing actions via Google Calendar 
+  and Gmail APIs. Developed for the OpenEnv Hackathon.
+env_type: mcp
+entry: app.py
+tools:
+  - route_to_agent
+  - ask_clarification
+  - schedule_event
+  - send_email
+  - draft_reply
+  - set_reminder
+reward: rubric
+observation_space: text
+action_space: discrete_with_params
+tags:
+  - alfred-protocol
+  - personal-assistant
+  - task-management
+  - multi-agent
+  - priority-scheduling
+  - reinforcement-learning
+  - productivity
