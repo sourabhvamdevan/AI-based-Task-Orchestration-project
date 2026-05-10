@@ -1,23 +1,33 @@
 
 
 
-openenv>=0.1.0
-gradio>=4.0.0
-pydantic>=2.0.0
+
+openenv
+gradio
+python-dotenv
 
 
-transformers>=4.40.0
-torch>=2.1.0
-huggingface-hub>=0.20.0
+unsloth
+transformers
+trl
+datasets
+torch
+accelerate
+peft
+bitsandbytes
+
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
 
 
-google-api-python-client>=2.100.0
-google-auth-httplib2>=0.2.0
-google-auth-oauthlib>=1.2.0
+pandas
+matplotlib
+numpy
+wandb
+mlflow
 
-datasets>=2.16.0
-python-dotenv>=1.0.0
 
-
-matplotlib>=3.8.0
-wandb>=0.16.0
+uuid
+json5
+re
