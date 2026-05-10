@@ -9,7 +9,7 @@ ALFRED PROTOCOL: Personal well-being (TIER1) always supersedes professional task
 from typing import Optional, List, Tuple, Dict
 
 
-# ─── Task Tier Definitions ─────────────────────────────────────────────────────
+#yeh apne task definations hai
 
 TASK_TIERS = {
     "TIER1_PERSONAL": {
@@ -34,30 +34,30 @@ TASK_TIERS = {
 }
 
 
-# ─── Keyword → Agent Mapping ──────────────────────────────────────────────────
+
 
 KEYWORD_MAP = {
-    # TIER1 PERSONAL → habit_agent (Wellness focus)
+    #tier 1 personals ke liye
     "health": "habit_agent", "doctor": "habit_agent", "gym": "habit_agent",
     "workout": "habit_agent", "water": "habit_agent", "sleep": "habit_agent",
     "medicine": "habit_agent", "therapy": "habit_agent", "mental health": "habit_agent",
     "remind": "habit_agent", "habit": "habit_agent", "daily": "habit_agent",
     "every day": "habit_agent",
-    # TIER1 PERSONAL → knowledge_agent (Relationship focus)
+  
     "birthday": "knowledge_agent", "anniversary": "knowledge_agent",
     "family": "knowledge_agent", "bhai": "knowledge_agent", "didi": "knowledge_agent",
-    # TIER2 PROFESSIONAL → meeting_agent
+   
     "meeting": "meeting_agent", "meetings": "meeting_agent", "call": "meeting_agent",
     "standup": "meeting_agent", "viva": "meeting_agent",
-    # TIER2 PROFESSIONAL → email_agent
+   
     "email": "email_agent", "reply": "email_agent", "respond": "email_agent",
     "follow up": "email_agent",
-    # TIER2 PROFESSIONAL → knowledge_agent (Research/Context)
+   
     "ask": "knowledge_agent", "know": "knowledge_agent", "recall": "knowledge_agent",
     "remember": "knowledge_agent",
 }
 
-# Tasks that Alfred should acknowledge but not process via current agents
+
 NON_TRIGGER_BLOCKLIST = [
     "buy", "grocery", "shopping", "watch", "movie", "cook", "dinner",
     "clean", "laundry", "pay bill", "fix", "repair", "travel",
